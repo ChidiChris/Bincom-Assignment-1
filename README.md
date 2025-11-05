@@ -7,12 +7,12 @@ It demonstrates basic HTML and CSS structure — using an external stylesheet fo
 
 ## 🧱 Project Structure
 
-project-folder/
-│
-├── assignment.html # Main HTML file
-├── style.css # External stylesheet
-└── img/
-└── hero-img.png # Sample image used on the page
+project-folder:
+
+- assignment.html # Main HTML file
+- style.css # External stylesheet
+- img/
+  - hero-img.png # Sample image used on the page
 
 
 ---
