@@ -1,0 +1,75 @@
+
+html {
+  scroll-behavior: smooth !important;
+}
+
+/*  General Page Setup  */
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/*  Main Container */
+.mainheading {
+  max-width: 800px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Main Heading */
+.mainheading h1 {
+  color: #bc451d;
+  font-size: 2.2em;
+  margin-bottom: 15px;
+}
+
+/* Paragraph */
+.mainheading p {
+  font-size: 1.05em;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+/* Image */
+.mainheading img {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  margin: 20px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Secondary Heading */
+.mainheading h2 {
+  color: #333;
+  margin-top: 25px;
+  font-size: 1.5em;
+}
+
+/* List */
+.mainheading ul {
+  list-style-type: square;
+  text-align: left;
+  display: inline-block;
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.mainheading li {
+  background: #ffe8e0;
+  margin: 8px 0;
+  padding: 10px 15px;
+  border-radius: 6px;
+  transition: background 0.3s;
+}
+
+.mainheading li:hover {
+  background: #ffd1bd;
+}
